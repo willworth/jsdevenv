@@ -1,3 +1,15 @@
+NOTES!
+.editorconfig  
+put in root of project
+
+
+
+
+
+
+
+
+
 WRITE GOOD COMMIT MESSAGES
 Begin your message with a short summary of
 your changes (up to 50 characters as a guideline). Separate it from the following body
