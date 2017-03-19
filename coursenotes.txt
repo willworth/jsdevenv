@@ -1,5 +1,5 @@
 NOTES!
-.editorconfig  
+.editorconfig
 put in root of project
 
 create packages.json and then npm install gets all the dependencies
@@ -11,6 +11,26 @@ global install is as follows
 npm install -g nsp
 
 then to run nsp check
+in terminal ctrl c to kill process... if you're gonna reload express or whatevs
+
+for sharing
+
+localtunnel(easiest), ngrok(secure), now(persistent) surge(static only)
+
+localtunnel can take a subdomain eg will.localtunnel.me
+
+
+=================AUTOMATION==========
+grunt was first, file oriented, json.
+gulp is fast
+npm scripts  fewer dependencies, use tools directly
+
+so scripts are defined in package.json
+npm scripts support pre post hooks - so prestart will run before start...
+for parallel running of scripts:
+ "start": "npm-run-all --parallel security-check open:src",
+
+ use npm start -s (silent) to cut down the noise
 
 
 
