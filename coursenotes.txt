@@ -2,4 +2,15 @@ NOTES!
 .editorconfig  
 put in root of project
 
+create packages.json and then npm install gets all the dependencies
+
+
+security of node packages?
+node security platform
+global install is as follows
+npm install -g nsp
+
+then to run nsp check
+
+
 
