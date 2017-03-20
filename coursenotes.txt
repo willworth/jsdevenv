@@ -33,4 +33,15 @@ for parallel running of scripts:
  use npm start -s (silent) to cut down the noise
 
 
+ =============bundlers=======
+Good authors divide their books into chapters and sections; good programmers divide their programs into modules.
+
+we then bundle them back together to reduce process load etc
+
+webpack allows you to bundle much more than just js
+css images fonts html
+hot reloading
+bundle splitting
+
+
 
