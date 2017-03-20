@@ -10,7 +10,7 @@ const app = express();
 const complier = webpack(config);
 
 
-app.use(require('webpack-dev-middleware')(complier,{
+app.use(require('webpack-dev-middleware')(complier, {
   noInfo: true,
   publicPath: config.output.publicPath
 }));
