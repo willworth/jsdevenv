@@ -116,3 +116,9 @@ auto = low friction
 increases test visibility
 but this is just unit tests.  integration tests are slower
 
+====cont int options======
+travis, appveyor, jenkins, semaphore, snapci
+
+travis and jenkins are most popular
+travis unix
+appveyor win
