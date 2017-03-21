@@ -60,4 +60,59 @@ npm run lint
 // eslint-disable-line no-console
  "lint:watch": "npm run lint -- --watch",
 
+ ======testing and continious integration========
+unit tests work on single functions or modules
+also worth being aware of
+integration testing
+which is interaction between modules
+and automated ui testing
+simulates clicks etc in ui see https://en.wikipedia.org/wiki/Selenium_(software)
+
+6 important questions for unit test set up
+1 framework
+2 assertion library
+3 helper libraries
+4 where to run tests
+5 where to place tests6
+6 when to run tests
+
+which framework?
+mocha most popular
+jest is from fb and pop with react
+it's a wrapper for jasmine
+all are ok.  think of gyms.  just go
+
+which assertion library
+assert 3+3=6 etc
+most pop is chai
+should.js
+npm expect
+
+which helper library?
+jsdom is an implementation of dom for node
+cheerio is jquery for the server
+
+where to run tests?
+browser -karma, testem
+headless browser-  phantomjs
+in memory dom   -jsdom  -lighter weight version of phantomjs
+
+where should i put all my test?
+
+centralised
+mocha suggests this.  less noise in src folder???  not a great approach for js apps
+
+alongside
+easy import.  always ./file
+clear visibility for tests
+convenient to open together
+no recreating folder scruture
+easier to refactor
+
+when should our tests run?
+whenever you hit save
+facilitates tdd
+auto = low friction
+increases test visibility
+but this is just unit tests.  integration tests are slower
 
