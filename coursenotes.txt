@@ -120,5 +120,7 @@ but this is just unit tests.  integration tests are slower
 travis, appveyor, jenkins, semaphore, snapci
 
 travis and jenkins are most popular
-travis unix
+travis ci   unix
 appveyor win
+
+both need a .yml file in root
