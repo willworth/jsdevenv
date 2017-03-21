@@ -21,4 +21,4 @@ environment:
 
 
     # don't actually build
-    buid:off
+    build:off
