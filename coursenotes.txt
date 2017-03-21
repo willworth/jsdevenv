@@ -43,5 +43,20 @@ css images fonts html
 hot reloading
 bundle splitting
 
+=========sourcemaps!======
+how to debug transpiled bundled code
+only downloaded if you open dev tools
+
+===========linters================
+keep track of coding standards
+forces consistency curly braces etc
+http://eslint.org/  is now the default
+0 off 1 warning 2 error
+eslint lacks watch functionality
+need to set up in package.json
+esw =eslintWATCH =npm package see line 9
+make sure to disable any built in linting plugins
+npm run lint
+// eslint-disable-line no-console
 
 
