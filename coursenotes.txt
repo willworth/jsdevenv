@@ -58,5 +58,6 @@ esw =eslintWATCH =npm package see line 9
 make sure to disable any built in linting plugins
 npm run lint
 // eslint-disable-line no-console
+ "lint:watch": "npm run lint -- --watch",
 
 
