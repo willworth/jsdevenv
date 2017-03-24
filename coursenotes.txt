@@ -124,3 +124,10 @@ travis ci   unix
 appveyor win
 
 both need a .yml file in root
+https://ci.appveyor.com/tools/validate-yaml
+not working!
+
+
+===========http calls============
+
+make fake api calls in development
