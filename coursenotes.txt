@@ -134,3 +134,24 @@ make fake api calls in development
 
 mock data with json schema faker
 json server
+
+======project structure========
+demo app is good as it gives examples of
+dir structure
+framework usage
+testing
+mock api
+automated deployment
+
+===tips!====
+js in a js file!
+otherwise cant test lint reuse transpile import explicit dependencies
+don't use a server side tool to dynamically build the js.  build json instead
+
+consider organising by feature instead of by file type on large projects
+
+extract logic as far as possible into plain old javascript (pojo)
+not tied to any framework
+=======production build===========
+
+minification
