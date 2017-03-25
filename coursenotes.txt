@@ -131,3 +131,6 @@ not working!
 ===========http calls============
 
 make fake api calls in development
+
+mock data with json schema faker
+json server
