@@ -8,10 +8,10 @@ function get(url){
   return fetch(url).then(onSuccess, onError);
 }
 
-funtion onSuccess(response){
+function onSuccess(response){
   return response.json();
 }
 
-funtion onError(error){
+function onError(error){
   console.log(error); //eslint-disable-line no-console
 }
