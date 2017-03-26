@@ -155,3 +155,4 @@ not tied to any framework
 =======production build===========
 
 minification
+bundle splitting
