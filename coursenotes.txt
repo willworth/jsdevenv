@@ -170,3 +170,4 @@ recommends separating static front end ui from api
 can use cheap hosting
 change api stack without probs
 separating concerns
+https://surge.sh/  for static front end
