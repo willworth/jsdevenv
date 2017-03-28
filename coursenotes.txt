@@ -156,3 +156,4 @@ not tied to any framework
 
 minification
 bundle splitting
+cache busting - set http headers to say js not expire for upto a year
