@@ -157,3 +157,16 @@ not tied to any framework
 minification
 bundle splitting
 cache busting - set http headers to say js not expire for upto a year
+
+====error logging=====
+does it provide good metadata? Stack traces, browser etc
+track js
+https://app.pluralsight.com/player?course=javascript-development-environment&author=cory-house&name=javascript-development-environment-m12&clip=14&mode=live
+
+use embeddedjs to alter html to only inject track js in prod build
+
+=====prod deploy=====
+recommends separating static front end ui from api
+can use cheap hosting
+change api stack without probs
+separating concerns
